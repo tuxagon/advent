@@ -6,23 +6,19 @@ name:           advent
 version:        0.1.0.0
 synopsis:       Short description of your package
 description:    Please see the README on Github at <https://github.com/githubuser/advent#readme>
-homepage:       https://github.com/githubuser/advent#readme
-bug-reports:    https://github.com/githubuser/advent/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2017 Author name here
+homepage:       https://github.com/tuxagon/advent-haskell#readme
+bug-reports:    https://github.com/tuxagon/advent-haskell/issues
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
 
 extra-source-files:
-    ChangeLog.md
     README.md
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/advent
+  location: https://github.com/tuxagon/advent-haskell
 
 library
   hs-source-dirs:
