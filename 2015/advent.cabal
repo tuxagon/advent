@@ -31,6 +31,7 @@ library
     , pureMD5 >= 2.1.3 && < 2.2
     , regex-compat >= 0.95 && < 0.96
     , array >= 0.5.1 && < 0.6
+    , vector >= 0.12.0 && < 0.13
   exposed-modules:
       Day1
       Day2
@@ -53,6 +54,7 @@ executable advent-exe
     , pureMD5 >= 2.1.3 && < 2.2
     , regex-compat >= 0.95 && < 0.96
     , array >= 0.5.1 && < 0.6
+    , vector >= 0.12.0 && < 0.13
     , advent
   default-language: Haskell2010
 
@@ -70,5 +72,6 @@ test-suite advent-test
     , pureMD5 >= 2.1.3 && < 2.2
     , regex-compat >= 0.95 && < 0.96
     , array >= 0.5.1 && < 0.6
+    , vector >= 0.12.0 && < 0.13
     , advent
   default-language: Haskell2010
